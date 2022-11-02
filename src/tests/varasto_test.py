@@ -89,6 +89,7 @@ class TestVarasto(unittest.TestCase):
 
         self.assertAlmostEqual(varasto.saldo, 10)
         varasto.lisaa_varastoon(11)
+        
         self.assertAlmostEqual(varasto.saldo, 10)
         
     
